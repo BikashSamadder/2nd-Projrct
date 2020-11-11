@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Learning Css.</title>
+  <link rel="stylesheet" href="class.css">
+</head>
+
+<body>
+  <div class="container">
+    <header class="header_style">
+      <h1>Website Title</h1>
+      <p>Website slogan included here</p>
+
+      <nav class="site-nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Abut</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div>
+      <form>
+        <fieldset>
+          <legend>Gender?</legend>
+          <input type="radio" id="male" name="gender" value="male"> <label for="male">Male</label><br>
+          <input type="radio" id="female" name="gender" value="female"> <label for="female">Female</label><br>
+          <input type="radio" id="other" name="gender" value="other"> <label for="other">Other</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Who is meals do you enjoy? (check all that apply)</legend>
+          <input type="checkbox" id="brakfast" name="favoritMeal" value="meal1"> <label for="brakfast">Brakfast</label>
+          <input type="checkbox" id="brunch" name="favoritMeal" value="meal2"> <label for="brunch">Brunch</label><br>
+          <input type="checkbox" id="lunch" name="favoritMeal" value="meal3"> <label for="lunch">Lunch</label>
+          <input class="submit__button" type="Submit" value="Submit">
+        </fieldset>
+
+        <fieldset class="div__form">
+          <legend>Form</legend>
+          <label for="FisrtName">First Name:</label>
+          <input Id="FisrtName" type="text">
+
+          <label for="LastName">Last Name:</label>
+          <input id="LastName" type="text">
+
+          <label for="FavoritColor">What is your favorit color?</label>
+          <select name="FavoritColor">  
+            <option value="colorRead">Red</option>  
+            <option value="colorOrenge">Orange</option>  
+            <option value="colorYellow">Yellow</option>  
+            <option value="colorGreen">Green</option>
+          </select>
+          <button class="submit__button" onclick="check()">Submit</button>
+        </fieldset>
+
+
+      </form>
+    </div>
+
+
+    <div class="content-area">
+
+      <div class="main-area">
+        <p>
+          Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph
+          is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and
+          coherence of ideas among sentences is what constitutes a paragraph. A paragraph is defined as “a group of
+          sentences or a single sentence that forms a unit” (Lunsford and Connors 116). Length and appearance do not
+          determine whether a section in a paper is a paragraph. For instance, in some styles of writing, particularly
+          journalistic styles, a paragraph can be just one sentence long. Ultimately, a paragraph is a sentence or group
+          of sentences that support one main idea. In this handout, we will refer to this as the “controlling idea,”
+          because it controls what happens in the rest of the paragraph.
+        </p>
+      </div>
+      <aside class="sidebar">
+        <p>
+          Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph
+          is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and
+          coherence of ideas among sentences is what constitutes a paragraph. A paragraph is defined as “a group of
+          sentences or a single sentence that forms a unit” (Lunsford and Connors 116). Length and appearance do not
+          determine whether a section in a paper is a paragraph. For instance, in some styles of writing, particularly
+          journalistic styles, a paragraph can be just one sentence long. Ultimately, a paragraph is a sentence or group
+          of sentences that support one main idea. In this handout, we will refer to this as the “controlling idea,”
+          because it controls what happens in the rest of the paragraph.
+        </p>
+      </aside>
+    </div>
+    <table>
+      <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+      </tr>
+      <tr>
+        <td>RFL</td>
+        <td>880-2-8835546</td>
+        <td>Bangladesh</td>
+      </tr>
+      <tr>
+        <td>Jamuna Group</td>
+        <td>88-02-9824001-29</td>
+        <td>Bangladesh</td>
+      </tr>
+      <tr>
+        <td>Apple</td>
+        <td>(408) 996–1010</td>
+        <td>United States</td>
+      </tr>
+      <tr>
+        <td>Xiaomi</td>
+        <td>0805 370 916</td>
+        <td>India</td>
+      </tr>
+      <tr>
+        <td>OnePlus</td>
+        <td>+1 (833)777-3633</td>
+        <td>U.S.A</td>
+      </tr>
+      <tr>
+        <td>Google LLC</td>
+        <td>1600 Amphitheatre Parkway Mountain</td>
+        <td>USA</td>
+      </tr>
+    </table>
+
+    <footer>
+      <p>&copy;2020 - This is the footer.</p>
+    </footer>
+  </div>
+</body>
+
+</html>
